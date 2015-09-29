@@ -1,0 +1,5 @@
+var a1 = new WOE.Army("army1");
+var a2 = new WOE.Army("army2");
+a1.setFoot(3);
+a2.setFoot(5);
+var b = new WOE.Battle(a1, a2);
